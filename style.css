@@ -25,7 +25,6 @@
       display: grid;
       grid-template-columns: 6% 94%;
       transition: .75s ease;
-
   }
 
   section.showSidebar {
@@ -35,8 +34,6 @@
   section > .sidebar {
     font-weight: 500;
     padding-top: 1rem;
-    height: 100vh;
-    width: 100%;
     background: var(--green);
   }
 
@@ -51,8 +48,8 @@
   }
 
   section > .sidebar nav {
-      height: 97vh;
-      position: relative;
+    height: 97vh;
+    position: relative;
   }
 
   section > .sidebar nav .logo { 
@@ -347,3 +344,128 @@ section .Content h2 {
 }
 
 
+@media (max-width: 1286px){
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7% 94%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 16% 86%;
+}
+}
+
+
+@media (max-width: 1074px){
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 18% 82%;
+}
+}
+
+@media (max-width: 960px){
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 9% 91%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 20% 80%;
+}
+}
+
+@media (max-width: 960px){
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 25% 75%;
+}
+}
+
+@media (max-width: 678px){
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 12% 88%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 29% 71%;
+}
+}
+
+@media (max-width: 580px){
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 14% 86%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 35% 65%;
+}
+}
+
+@media (max-width: 490px){
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% 91%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 40% 60%;
+}
+}
+
+@media (max-width: 364px){
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 22% 82%;
+    transition: .75s ease;
+}
+
+section.showSidebar {
+  grid-template-columns: 55% 50%;
+}
+}
